@@ -15,26 +15,26 @@ const App = () => {
     <>
       <Layout>
         <Routes>
-          <Route path={pages.get('home').path} element={<Home />} />
+          <Route path="/Little-Lemon element"={<Home />} />
           <Route 
-            path={pages.get('about').path} 
+            path="/about"
             element={<UnderConstruction />} 
           />
           <Route 
-            path={pages.get('menu').path} 
+            path="/menu" 
             element={<UnderConstruction />} 
           />
-          <Route path={pages.get('bookings').path} element={<Bookings />} />
+          <Route path="bookings" element={<Bookings />} />
           <Route 
-            path={pages.get('confirmedBooking').path} 
+            path="/confirmed-booking
             element={<ConfirmedBooking />} 
           />
           <Route 
-            path={pages.get('orderOnline').path} 
+            path="/order-online"
             element={<UnderConstruction />} 
           />
           <Route 
-            path={pages.get('login').path} 
+            path="/login"
             element={<UnderConstruction />} 
           />
           <Route path="*" element={<NotFound />} />
