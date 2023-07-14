@@ -1,6 +1,6 @@
 
 const pages = new Map();
-pages.set('home', { name: 'Home', path: '/', anchorable: true });
+pages.set('home', { name: 'Home', path: '/Little-Lemon', anchorable: true });
 pages.set('about', { name: 'About', path: '/about', anchorable: true });
 pages.set('menu', { name: 'Menu', path: '/menu', anchorable: true });
 pages.set('bookings', { 
